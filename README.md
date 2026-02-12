@@ -4,8 +4,8 @@ By default, Vi or Vim uses visual mode, which causes mouse copy and paste not to
 
 This is a way to disable visual mode, so mouse copy and paste can work:
 ```
-$ echo "set compatible" >> ~/.vimrc
-$ echo "set mouse-=a" >> ~/.vimrc
+echo "set compatible" >> ~/.vimrc
+echo "set mouse-=a" >> ~/.vimrc
 ```
 then log out and log in again.
 
